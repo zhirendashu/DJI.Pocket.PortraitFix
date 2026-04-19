@@ -1,0 +1,23 @@
+# 用户配置（每台电脑不同，不上传）
+config.ini
+
+# 处理日志目录（运行时生成）
+处理日志/
+logs/
+
+# Windows 自动生成的 exiftool.exe（由 exiftool(-k).exe 初始化产生）
+exiftool.exe
+
+# macOS 系统文件
+.DS_Store
+__MACOSX/
+
+# Windows 系统文件
+Thumbs.db
+desktop.ini
+
+# 测试视频（不上传大文件）
+*.MP4
+*.MOV
+*.mp4
+*.mov
